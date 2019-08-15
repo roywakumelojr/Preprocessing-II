@@ -1,25 +1,32 @@
 // Navigation Styles here
 header {
     .custom-layout(space-evenly, wrap);
-    width: 100%;
+    width: 800px;
     margin-top: 1%; 
 
-	.logo {
-        .custom-layout(wrap);
+    .menu {
         display: flex;
         flex-wrap: wrap;
-		width: 35%;
-	}
-	
-	nav {
-        .custom-layout(space-between, center);
-		width: 25%;
-	}
-		a {
-			text-decoration: none;
-			font-size: 1.5rem;
-			color: black;
-		}	
+        width:100%;
+    
+    
+        .logo {
+            .custom-layout(wrap);
+            display: flex;
+            flex-wrap: wrap;
+            width: 40%;
+        }
+        
+        nav {
+            .custom-layout(space-between, center);
+            width: 25%;
+        }
+            a {
+                text-decoration: none;
+                font-size: 1.5rem;
+                color: black;
+            }
+    }	
 }
 
 .border-top {
