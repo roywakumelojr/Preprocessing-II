@@ -168,6 +168,32 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+header {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 1%;
+}
+header .logo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 35%;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 25%;
+}
+header a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+}
+.border-top {
+  border-top: 2px dashed #C0C0C0;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
